@@ -4,8 +4,10 @@ We not just help you with finding the ideal real estate, but also ensure that yo
 it can be. 
 This Project is pure Python based and the database we have used is MYSQL,
 The Connector used in this project is Pymysql.
-'''python
+```python
+
 import pymysql as py
 connection = py.connect('YOUR HOST NAME', 'USERNAME', 'PASSWORD', 'DATABASE NAME')
 cursor = connection.cursor()
-'''
+
+```
